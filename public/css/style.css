@@ -1,0 +1,7 @@
+#portfolio{
+    display: flex;
+}
+
+video {
+    border-radius: 10px;
+}
