@@ -1,0 +1,17 @@
+/* Dedicate part for photos / images / videos */
+
+video {
+    border-radius: 20px;
+}
+
+#photo-profile {
+    position: absolute;
+    width: calc(var(--coeff) * var(--width-photo));
+    height: calc(var(--coeff) * var(--width-photo));
+    left: calc(var(--coeff) * var(--width-photo) / 2);
+    top: calc(var(--coeff) * var(--width-photo));
+
+    border-radius: calc(var(--coeff) * var(--width-photo) / 2);
+    background: url("./photo.png");
+    z-index: 1;
+}

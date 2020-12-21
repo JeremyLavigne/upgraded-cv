@@ -1,0 +1,10 @@
+/* resume is the middle section: contains cover letter / work exp / education */
+
+#resume {
+    position: absolute;
+    height: calc(var(--coeff) * (var(--height-main) / 3));
+    width: calc(var(--coeff) * var(--width-main));
+    top: calc(var(--coeff) * (var(--height-main) / 3));
+
+    background: var(--white);
+}

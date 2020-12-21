@@ -1,0 +1,11 @@
+footer {
+    position: absolute;
+    width: calc( var(--coeff) *
+        (var(--width-main) + var(--width-left-bar) + var(--width-right-bar))
+    );
+    height: calc(var(--coeff) * var(--footer-height));
+    left: 0px;
+    top: calc(var(--coeff) * (var(--height-main) - var(--footer-height)));
+    
+    background: #12303D;
+}

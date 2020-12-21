@@ -1,0 +1,28 @@
+:root {
+    /* Colors */
+    --background-color: #E5E5E5;
+    --blue-black: #12303D;
+    --yellow: #D0A939;
+    --white: white;
+
+
+    /* Font */
+    --font-size-xlg: 36px;
+    --font-size-lg: 24px;
+
+    /* Background - Original sizes - A4 format */
+    --width-main: 595px;
+    --height-main: 842px;
+    --width-left-bar: 24px;
+    --width-right-bar: 12px;
+    --basic-shape-width: 400px;
+    --basic-shape-height: 200px;
+    --footer-height: 38px;
+    --main-top-margin: 20px;
+
+    /* Photo - videos - images */
+    --width-photo: 90px;
+
+    /* Coeff for an easy responsive background - just change that */
+    --coeff: 1;
+}

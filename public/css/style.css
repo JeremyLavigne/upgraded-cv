@@ -1,7 +1,23 @@
-#portfolio{
+@import "./background.css";
+@import "./footer.css";
+@import "./variables.css";
+@import "./media.css";
+@import "./resume.css";
+@import "./header.css";
+@import "./portfolio.css";
+
+/* Montserrat Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
     display: flex;
+    justify-content: center; /* put the main bloc in center */
+
+    background: var(--background-color);
+
+    font-family: 'Montserrat', sans-serif;
 }
 
-video {
-    border-radius: 10px;
-}

@@ -1,0 +1,95 @@
+/* Background design and main (main represent the fake pdf page) */
+
+main {
+    position: relative;
+    margin-top: calc(var(--coeff) * var(--main-top-margin));
+    padding-left: calc(var(--coeff) * var(--width-left-bar));
+    padding-right: calc(var(--coeff) * var(--width-right-bar));
+    width: calc(var(--coeff) * var(--width-main));
+    height: calc(var(--coeff) * var(--height-main));
+}
+
+/* Black bar left */
+#background-shape-1 {
+    position: absolute;
+    width: calc(var(--coeff) * var(--width-left-bar));
+    height: calc(var(--coeff) * var(--height-main));
+    left: 0px;
+    top: 0px;
+
+    background: var(--blue-black);
+}
+
+/* Black triangle top left */
+#background-shape-2 { 
+    position: absolute;
+    width: calc(var(--coeff) * var(--basic-shape-width));
+    height: calc(var(--coeff) * var(--basic-shape-height));
+    left: calc(var(--coeff) * -140px);
+    top: calc(var(--coeff) * -90px);
+    z-index: 1;
+    
+    background: var(--blue-black);
+    transform: rotate(-54deg);
+}
+
+/* White rectangle to hide extra content - Left */
+#background-shape-2bis { 
+    position: absolute;
+    width: calc(var(--coeff) * var(--basic-shape-height));
+    height: calc(var(--coeff) * var(--basic-shape-width));
+    left: calc(-1 * var(--coeff) * var(--basic-shape-height));
+    top: calc(-1 * var(--coeff) * var(--main-top-margin));
+    z-index: 2;
+
+    background: var(--background-color);
+}
+/* White rectangle to hide extra content - Top */
+#background-shape-2ter { 
+    position: absolute;
+    width: calc(var(--coeff) *
+        (var(--width-main) + var(--width-left-bar) + var(--width-right-bar))
+        );
+    height: calc(var(--coeff) * var(--main-top-margin));
+    left: 0px;
+    top: calc(-1 * var(--coeff) * var(--main-top-margin));
+    z-index: 2;
+
+    background: var(--background-color);
+}
+
+/* yellow bar right */
+#background-shape-3 {
+    position: absolute;
+    width: calc(var(--coeff) * var(--width-right-bar));
+    height: calc(var(--coeff) * var(--height-main));
+    left: calc(var(--coeff) * (var(--width-main) + var(--width-left-bar)));
+    top: 0px;
+
+    background: var(--yellow);
+}
+
+/* yellow triangle top right */
+#background-shape-4 {
+    position: absolute;
+    width: calc(var(--coeff) * 270px);
+    height: calc(var(--coeff) * 735px);
+    left: calc(var(--coeff) * var(--basic-shape-height));
+    top: calc(-1 * var(--coeff) * var(--basic-shape-width));
+    z-index: 1;
+    
+    background: var(--yellow);
+    transform: rotate(-72deg);
+}
+/* White rectangle to hide extra content - Right */
+#background-shape-4bis { 
+    position: absolute;
+    width: calc(var(--coeff) * var(--basic-shape-width));
+    height: calc(var(--coeff) * var(--basic-shape-width));
+    right: calc(-1 * var(--coeff) * var(--basic-shape-width));;
+    top: calc(-1 * var(--coeff) * var(--main-top-margin));
+    z-index: 2;
+
+    background: var(--background-color);
+}
+
