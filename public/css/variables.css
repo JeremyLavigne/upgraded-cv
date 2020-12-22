@@ -5,10 +5,18 @@
     --yellow: #D0A939;
     --white: white;
 
-
     /* Font */
     --font-size-xlg: 36px;
     --font-size-lg: 24px;
+    --font-size-md: 16px;
+    --font-size-sm: 12px;
+    --font-size-xsm: 10px;
+    --font-size-tiny: 3px;
+
+    /* Padding - Margin */
+    --main-top-margin: 20px;
+    --padding-sm: 5px;
+    --padding-md: 5px;
 
     /* Background - Original sizes - A4 format */
     --width-main: 595px;
@@ -18,11 +26,42 @@
     --basic-shape-width: 400px;
     --basic-shape-height: 200px;
     --footer-height: 38px;
-    --main-top-margin: 20px;
 
     /* Photo - videos - images */
     --width-photo: 90px;
+    --width-video: 100px;
+    --height-video: 75px;
 
     /* Coeff for an easy responsive background - just change that */
     --coeff: 1;
+}
+
+@media (min-width: 600px) {
+    :root {
+        --coeff: 0.75;
+    } 
+}
+
+@media (min-width: 800px) {
+    :root {
+        --coeff: 1;
+    } 
+}
+
+@media (min-width: 1000px) {
+    :root {
+        --coeff: 1.25;
+    } 
+}
+
+@media (min-width: 1200px) {
+    :root {
+        --coeff: 1.5;
+    } 
+}
+
+@media (min-width: 1400px) {
+    :root {
+        --coeff: 1.75;
+    } 
 }

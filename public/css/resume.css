@@ -8,3 +8,61 @@
 
     background: var(--white);
 }
+
+#cover-letter {
+    position: absolute;
+    height: calc(var(--coeff) * (var(--height-main) / 3));
+    width: calc(var(--coeff) * (var(--width-main) / 2 - 2 * var(--padding-sm)));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    z-index: 1;
+    padding-left: var(--padding-sm);
+    padding-right: var(--padding-sm);
+
+    font-size: calc(var(--coeff) * var(--font-size-sm));
+}
+
+#experience {
+    position: absolute;
+    height: calc(var(--coeff) * (var(--height-main) / 3) - 2 * var(--padding-md));
+    width: calc(var(--coeff) * (var(--width-main) / 2 - 4 * var(--padding-sm)));
+    left: calc(var(--coeff) * var(--width-main) / 2);
+    border-radius: calc(var(--coeff) * 4 * var(--padding-sm));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    z-index: 1;
+    padding-left: calc(var(--coeff) * var(--padding-sm));
+    padding-right: calc(var(--coeff) * var(--padding-sm));
+    padding-bottom: calc(var(--coeff) * var(--padding-md));
+
+    font-size: calc(var(--coeff) * var(--font-size-xsm));
+    color: var(--white);
+
+    background: var(--blue-black);
+}
+
+.miniature {
+    position: absolute;
+    bottom: calc(var(--coeff) * 2 * var(--padding-md));
+    right: calc(var(--coeff) * 2 * var(--padding-md));
+    border-radius: calc(var(--coeff) * var(--padding-sm));
+
+    z-index: 1;
+    padding-left: calc(var(--coeff) * var(--padding-sm));
+    padding-right: calc(var(--coeff) * var(--padding-sm));
+
+    font-size: calc(var(--coeff) * var(--font-size-tiny));
+
+    background: var(--white);
+    color: var(--blue-black);
+}
+
+#experience li {
+    margin-top: var(--padding-md)
+}
