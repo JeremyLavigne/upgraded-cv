@@ -3,6 +3,7 @@
 main {
     position: relative;
     margin-top: calc(var(--coeff) * var(--main-top-margin));
+    margin-bottom: calc(var(--coeff) * var(--main-bottom-margin));
     padding-left: calc(var(--coeff) * var(--width-left-bar));
     padding-right: calc(var(--coeff) * var(--width-right-bar));
     width: calc(var(--coeff) * var(--width-main));
@@ -84,9 +85,9 @@ main {
 /* White rectangle to hide extra content - Right */
 #background-shape-4bis { 
     position: absolute;
-    width: calc(var(--coeff) * var(--basic-shape-width));
+    width: calc(var(--coeff) * var(--basic-shape-height));
     height: calc(var(--coeff) * var(--basic-shape-width));
-    right: calc(-1 * var(--coeff) * var(--basic-shape-width));;
+    left: calc(var(--coeff) * (var(--width-main) + var(--width-left-bar) + var(--width-right-bar)));
     top: calc(-1 * var(--coeff) * var(--main-top-margin));
     z-index: 2;
 

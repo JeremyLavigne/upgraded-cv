@@ -61,6 +61,9 @@
 
     background: var(--white);
     color: var(--blue-black);
+
+    cursor: pointer;
+    box-shadow: 3px 3px var(--yellow);
 }
 
 .exp-list {

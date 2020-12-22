@@ -15,6 +15,7 @@
 
     /* Padding - Margin */
     --main-top-margin: 20px;
+    --main-bottom-margin: 40px;
     --padding-sm: 5px;
     --padding-md: 10px;
     --margin-sm: 5px;
@@ -35,9 +36,17 @@
     --height-video: 75px;
     --width-skills: 250px;
     --height-skills: 140px;
+    --width-icon: 40px;
+    --height-icon: 30px;
 
     /* Coeff for an easy responsive background - just change that */
     --coeff: 1;
+}
+
+@media (max-width: 599px) {
+    :root {
+        --coeff: 0.5;
+    } 
 }
 
 @media (min-width: 600px) {

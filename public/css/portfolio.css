@@ -39,6 +39,8 @@
     bottom: calc(var(--coeff) * var(--padding-sm));
     right: calc(var(--coeff) * var(--padding-sm));
 
+    cursor: pointer;
+    box-shadow: 3px 3px var(--yellow);
 }
 
 #mech-icon {

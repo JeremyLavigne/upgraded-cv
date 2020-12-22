@@ -6,6 +6,9 @@ footer {
     height: calc(var(--coeff) * var(--footer-height));
     left: 0px;
     top: calc(var(--coeff) * (var(--height-main) - var(--footer-height)));
+
+    display: flex;
+    align-items: center;
     
     background: #12303D;
 }
@@ -14,8 +17,24 @@ footer ul {
     display: flex;
     width: 80%;
     justify-content: space-around;
+    margin: 0;
 }
 
 footer li {
     list-style: none;
+    background: var(--white);
+    width: calc(var(--coeff) * var(--width-icon));
+    height: calc(var(--coeff) * var(--height-icon));
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    cursor: pointer;
 }
