@@ -9,3 +9,13 @@ footer {
     
     background: #12303D;
 }
+
+footer ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+footer li {
+    list-style: none;
+}

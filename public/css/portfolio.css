@@ -6,5 +6,64 @@
     width: calc(var(--coeff) * var(--width-main));
     top: calc(var(--coeff) * 2 * (var(--height-main) / 3));
 
+    display: flex;
+    justify-content: center;
+
     background: var(--background-color);
+}
+
+#skills {
+    position: relative;
+    width: calc(var(--coeff) * (var(--width-skills)));
+    height: calc(var(--coeff) * var(--height-skills));
+
+    margin-top: calc(var(--coeff) * var(--margin-md));
+
+    z-index: 1;
+}
+
+.skills-figure, .video-figure {
+    margin: 0;
+    padding: 0;
+}
+
+.skills {
+    width: calc(var(--coeff) * (var(--width-skills)));
+    height: calc(var(--coeff) * var(--height-skills));
+}
+
+.tiny-skills {
+    position: absolute;
+    width: calc(var(--coeff) * (var(--width-skills) / 4));
+    height: calc(var(--coeff) * (var(--height-skills) / 4));
+    bottom: calc(var(--coeff) * var(--padding-sm));
+    right: calc(var(--coeff) * var(--padding-sm));
+
+}
+
+#mech-icon {
+    position: absolute;
+    top: calc(var(--coeff) * 30px);
+    left: calc(var(--coeff) * 40px);
+    width: calc(var(--coeff) * 60px);
+}
+
+#video-left-left {
+    top: calc(var(--coeff) * 120px);
+    left: calc(var(--coeff) * 40px);
+}
+
+#video-center-left {
+    bottom: calc(var(--coeff) * 45px);
+    left: calc(var(--coeff) * 200px);
+}
+
+#video-center-right {
+    bottom: calc(var(--coeff) * 45px);
+    right: calc(var(--coeff) * 110px);
+}
+
+#video-right-right {
+    top: calc(var(--coeff) * 50px);
+    right: calc(var(--coeff) * 40px);      
 }

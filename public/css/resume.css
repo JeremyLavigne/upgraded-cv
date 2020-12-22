@@ -49,8 +49,8 @@
 
 .miniature {
     position: absolute;
-    bottom: calc(var(--coeff) * 2 * var(--padding-md));
-    right: calc(var(--coeff) * 2 * var(--padding-md));
+    bottom: calc(var(--coeff) * var(--padding-md));
+    right: calc(var(--coeff) * var(--padding-md));
     border-radius: calc(var(--coeff) * var(--padding-sm));
 
     z-index: 1;
@@ -63,6 +63,10 @@
     color: var(--blue-black);
 }
 
-#experience li {
-    margin-top: var(--padding-md)
+.exp-list {
+    margin-top: calc(var(--coeff) * var(--margin-md));
+}
+
+.miniature .exp-list {
+    margin-top: 0;
 }

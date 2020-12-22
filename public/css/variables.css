@@ -16,7 +16,9 @@
     /* Padding - Margin */
     --main-top-margin: 20px;
     --padding-sm: 5px;
-    --padding-md: 5px;
+    --padding-md: 10px;
+    --margin-sm: 5px;
+    --margin-md: 10px;
 
     /* Background - Original sizes - A4 format */
     --width-main: 595px;
@@ -31,6 +33,8 @@
     --width-photo: 90px;
     --width-video: 100px;
     --height-video: 75px;
+    --width-skills: 250px;
+    --height-skills: 140px;
 
     /* Coeff for an easy responsive background - just change that */
     --coeff: 1;

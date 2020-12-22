@@ -1,9 +1,12 @@
 /* Dedicate part for photos / images / videos */
 
 video {
+    position: absolute;
     width: calc(var(--coeff) * var(--width-video));
     height: calc(var(--coeff) * var(--height-video));
     border-radius: 20px;
+
+    z-index: 2;
 }
 
 #photo-profile {

@@ -55,16 +55,16 @@
             </div>
 
             <div id="experience">
-                <div class="work-exp">
+                <div class="work-exp miniature">
                     <h4> WORK EXPERIENCE </h4>
                     <ul>
-                        <li>
+                        <li class="exp-list">
                             2017 - 2018 | Primary school Teacher, France | Education Nationale
                             <ul>
                                 <li>Project : Teach <strong>algorithmic</strong> to 10-year-old pupils</li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="exp-list">
                             2009 - 2015 | Postman, France | La Poste
                             <ul>
                                 <li>One year as <strong>‘Team Leader’</strong></li>
@@ -73,21 +73,21 @@
                     </ul>
                 </div>
 
-                <div class="education miniature">
+                <div class="education">
                     <h4> EDUCATION </h4>
                     <ul>
-                        <li>
+                        <li class="exp-list">
                             2020 | <strong>Software Development Academy</strong>, Stockholm | Novare Potential
                             <ul>
                                 <li><strong>Active Learning Programming</strong> : Java, JavaScript</li>
                                 <li><strong>Active Learning Development</strong> : Software Engineering, Team work</li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="exp-list">
                             2018 | <strong>MA</strong> equivalent in Primary school education, 
                             University of Orléans, France
                         </li>
-                        <li>
+                        <li class="exp-list">
                             2016 | <strong>Bachelor of Sciences</strong> equivalent in
                              <strong>Mathematics and Computer Sciences</strong>, University of Orléans, France
                         </li>
@@ -97,43 +97,46 @@
         </section>
 
         <section id="portfolio">
+
+            <img id="mech-icon" src="./assets/icons/mechanical-gears-.png" alt="mechanical-gears" />
+
             <figure class="video-figure">
-                <video controls>
+                <video id="video-left-left" controls>
                     <source src="./assets/videos/thinkers-record.mp4" type="video/mp4">
                     <source src="./assets/videos/thinkers-record.webm" type="video/webm">
                     Your browser does not support the video tag.
                 </video>
             </figure>
             <figure class="video-figure">
-                <video controls>
+                <video id="video-center-left" controls>
                     <source src="./assets/videos/munami-record.mp4" type="video/mp4">
                     <source src="./assets/videos/munami-record.webm" type="video/webm">
                     Your browser does not support the video tag.
                 </video>
             </figure>
             <figure class="video-figure">
-                <video controls>
+                <video id="video-center-right" controls>
                     <source src="./assets/videos/portfolio-record.mp4" type="video/mp4">
                     <source src="./assets/videos/portfolio-record.webm" type="video/webm">
                     Your browser does not support the video tag.
                 </video>
             </figure>
             <figure class="video-figure">
-                <video controls>
+                <video id="video-right-right" controls>
                     <source src="./assets/videos/trackin-record.mp4" type="video/mp4">
                     <source src="./assets/videos/trackin-record.webm" type="video/webm">
                     Your browser does not support the video tag.
                 </video>
             </figure>
 
-            <figure>
-                <img src="./assets/images/skills.png" alt="profile" />
-            </figure>
-            <figure>
-                <img src="./assets/images/personality.png" alt="profile" />
-            </figure>
-
-
+            <div id="skills">
+                <figure class="skills-figure">
+                    <img class="skills" src="./assets/images/skills.png" alt="profile-skills" />
+                </figure>
+                <figure class="skills-figure">
+                    <img class="skills tiny-skills" src="./assets/images/personality.png" alt="profile-personqlity" />
+                </figure>
+            </div>
         </section>
 
         <footer id="main-footer">
