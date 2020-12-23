@@ -38,3 +38,7 @@ footer img {
     margin-top: 10%;
     cursor: pointer;
 }
+
+#phone-number {
+    display: none;
+}
