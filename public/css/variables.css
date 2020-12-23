@@ -42,12 +42,13 @@
     /* Coeff for an easy responsive background - just change that */
     --coeff: 1;
 }
-
+/*
 @media (max-width: 599px) {
     :root {
         --coeff: 0.5;
     } 
 }
+*/
 
 @media (min-width: 600px) {
     :root {

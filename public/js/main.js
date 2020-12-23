@@ -22,7 +22,7 @@ workExpElt.onclick = () => {
 const skillsElt = document.getElementById("skills-img");
 const personalityElt = document.getElementById("personality-img");
 
-skillsElt.oclick = () => {
+skillsElt.onclick = () => {
     if (skillsElt.className === "skills tiny-skills") {
         skillsElt.className = "skills";
         personalityElt.className = "skills tiny-skills";
@@ -36,6 +36,18 @@ personalityElt.onclick = () => {
     } 
 };
 
+// Toggle for phone number
+
+const phoneNumberElt = document.getElementById("phone-number");
+const phoneElt = document.getElementById("smartphone");
+
+phoneElt.onclick = () => {
+    if (phoneNumberElt.style.display === "none" || phoneNumberElt.style.display === "") {
+        phoneNumberElt.style.display = "block";
+    } else {
+        phoneNumberElt.style.display = "none";
+    }
+}
 
 // Larger video when played
 

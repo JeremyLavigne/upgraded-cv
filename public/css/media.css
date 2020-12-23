@@ -4,7 +4,7 @@ video {
     position: absolute;
     width: calc(var(--coeff) * var(--width-video));
     height: calc(var(--coeff) * var(--height-video));
-    border-radius: 20px;
+    border-radius: calc(var(--coeff) * 20px);
 
     z-index: 2;
 }
