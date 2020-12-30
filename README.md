@@ -6,4 +6,4 @@ Or, for a dynamic version, [on the web](https://jeremy-lavigne.web.app)
 
 #### Overview 
 
-![overview]("./public/assets/images/overview.png")
+![overview](./public/assets/images/overview.png)
