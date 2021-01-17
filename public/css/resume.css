@@ -25,6 +25,11 @@
     font-size: calc(var(--coeff) * var(--font-size-sm));
 }
 
+.available_upon {
+    text-align: right;
+    font-style: italic;
+}
+
 #experience {
     position: absolute;
     height: calc(var(--coeff) * (var(--height-main) / 3) - 2 * var(--padding-md));

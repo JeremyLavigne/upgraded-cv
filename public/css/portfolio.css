@@ -69,3 +69,32 @@
     top: calc(var(--coeff) * 50px);
     right: calc(var(--coeff) * 40px);      
 }
+
+#caption-left-left {
+    position: absolute;
+    font-size: calc(var(--coeff) * var(--font-size-xsm));
+    top: calc(var(--coeff) * 105px);
+    left: calc(var(--coeff) * 40px);
+}
+
+#caption-center-left {
+    position: absolute;
+    font-size: calc(var(--coeff) * var(--font-size-xsm));
+    bottom: calc(var(--coeff) * (50px + var(--height-video)));
+    left: calc(var(--coeff) * 200px);
+}
+
+#caption-center-right {
+    position: absolute;
+    font-size: calc(var(--coeff) * var(--font-size-xsm));
+    bottom: calc(var(--coeff) * (50px + var(--height-video)));
+    right: calc(var(--coeff) * 110px);
+}
+
+#caption-right-right {
+    position: absolute;
+    font-size: calc(var(--coeff) * var(--font-size-xsm));
+    top: calc(var(--coeff) * 35px);
+    right: calc(var(--coeff) * 40px);
+    z-index: 34;
+}
